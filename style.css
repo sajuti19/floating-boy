@@ -1,0 +1,25 @@
+img{
+    width: 200px;
+}
+div{
+    border: 1px solid lightblue;
+    width: 200px;
+}
+.boy{
+    position: relative;
+    z-index:3;
+}
+.boy:hover{
+    top: 110px;
+}
+.ring{
+    position: relative;
+    top: 10px;
+    z-index: 2;
+}
+.water{
+    position: relative;
+    top: -80px;
+    left: 20px;
+    z-index: 1;
+}
